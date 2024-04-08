@@ -32,12 +32,12 @@ export const todosSlice = createSlice({
                 description: description,
                 completed: false,
             };
-            return [...state, newTodo];
+            state.push(newTodo)
         },
         updateTodo: (state, action: PayloadAction<UpdateTodoPayload>) => {
             const { id, title, description, completed } = action.payload;
 
-            return state.map(todo => {
+            state.map(todo => {
                 if (todo.id === id) {
                     return {
                         ...todo,
@@ -51,8 +51,7 @@ export const todosSlice = createSlice({
         },
         deleteTodo: (state, action: PayloadAction<DeleteTodoPayload>) => {
             const { id } = action.payload;
-
-            return state.filter((todo) => todo.id !== id)
+            state.filter((todo) => todo.id !== id)
         },
     }
 });

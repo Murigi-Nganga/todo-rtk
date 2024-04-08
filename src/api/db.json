@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "Complete homework assignment",
+      "description": "Finish the homework for mathematics class.",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Go grocery shopping",
+      "description": "Buy fruits, vegetables, and bread.",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "Call mom",
+      "description": "Call mom to wish her a happy birthday.",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Read a book",
+      "description": "Read the latest novel by your favorite author.",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "Attend meeting",
+      "description": "Attend the weekly team meeting at work.",
+      "completed": true
+    },
+    {
+      "id": 6,
+      "title": "Pay bills",
+      "description": "Pay utility bills and rent for the month.",
+      "completed": true
+    },
+    {
+      "id": 7,
+      "title": "Exercise",
+      "description": "Go for a run or hit the gym for a workout session.",
+      "completed": false
+    },
+    {
+      "id": 8,
+      "title": "Clean the house",
+      "description": "Do laundry, vacuum floors, and tidy up the rooms.",
+      "completed": false
+    },
+    {
+      "id": 9,
+      "title": "Watch a movie",
+      "description": "Watch the latest blockbuster movie with friends.",
+      "completed": true
+    },
+    {
+      "id": 10,
+      "title": "Cook dinner",
+      "description": "Prepare a delicious meal for tonight's dinner.",
+      "completed": false
+    }
+]
