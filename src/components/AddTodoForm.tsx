@@ -30,8 +30,8 @@ const AddTodoForm = () => {
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-
     dispatch(addTodo(formData));
+    setFormData(initialState);
   };
 
   return (
