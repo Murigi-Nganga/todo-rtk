@@ -19,11 +19,9 @@ const AddTodoForm = () => {
   const [formData, setFormData] = useState<FormDataProps>(initialState);
 
   const handleChange = (
-    e:
-      | React.ChangeEvent<HTMLInputElement>
+    e: React.ChangeEvent<HTMLInputElement>
       | React.ChangeEvent<HTMLTextAreaElement>
   ) => {
-    console.log(e.target.name)
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
